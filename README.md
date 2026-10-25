@@ -1,4 +1,4 @@
-# 📚 Research Paper Abstract Classification using Supervised Machine Learning
+# Research Paper Abstract Classification using Supervised Machine Learning
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/)
 ![Python](https://img.shields.io/badge/Python-3.12-blue.svg)
@@ -70,7 +70,7 @@ All six required classifiers were trained on the 80% training split and evaluate
 
 ---
 
-## 📁 6. Repository Structure & Deliverables
+## 6. Repository Structure & Deliverables
 ```text
 ├── Data_Collection.ipynb     # Runnable Jupyter Notebook (Scraping, NLP, Training, Plots, Export)
 ├── dataset.csv               # Complete 1,050-row labeled dataset (raw + cleaned abstracts)
@@ -85,7 +85,7 @@ All six required classifiers were trained on the 80% training split and evaluate
 
 ---
 
-## 💻 7. How to Run Locally
+## 7. How to Run Locally
 1. **Clone the repository and install dependencies:**
    ```bash
    git clone https://github.com/your-username/research-paper-classifier.git
