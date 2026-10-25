@@ -22,7 +22,7 @@ The exponential growth of peer-reviewed literature requires automated indexing s
 🔗 **Live Web Application:** **[Paste Your Deployed Streamlit URL Here]**
 
 Our interactive web application (`app.py`) provides two modes of operation:
-* **Tab 1 — Single Abstract Classifier & Explainable AI (XAI):** Paste any research abstract to view its predicted category, calibrated **Model Confidence Scores** (`predict_proba`), and an **Influence Score Bar Chart** ($\text{TF-IDF}_i \times \beta_{c,i}$) highlighting the exact words from the abstract that drove the model's decision.
+* **Tab 1 — Single Abstract Classifier & Explainability:** Paste any research abstract to view its predicted category, calibrated **Model Confidence Scores** (`predict_proba`), and an **Influence Score Bar Chart** highlighting the exact words from the abstract that drove the model's decision.
 * **Tab 2 — Batch CSV Dataset Uploader:** Upload any external `.csv` file containing an `abstract` column (e.g., `sample_upload.csv`) to automatically preprocess the text, generate predicted labels for all rows, and download the labeled dataset (`predicted_abstracts.csv`).
 
 ---
